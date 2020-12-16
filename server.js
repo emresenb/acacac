@@ -352,9 +352,9 @@ client.unload = command => {
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
 		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
-			msg.author.sendMessage('**Aleyküm Selam,  Hoş Geldin!**'); 
+			msg.author.sendMessage('https://media.giphy.com/media/LQ4VGDV2lkMJ4s7QeJ/giphy.gif'); 
 		} else {
-		msg.reply('Aleyküm selam, hoş geldin ^^');
+		msg.reply('https://media.giphy.com/media/LQ4VGDV2lkMJ4s7QeJ/giphy.gif');
 		}
 	}
 });
@@ -364,7 +364,7 @@ client.on('message', msg => {
 		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
 			msg.author.sendMessage('**Aleyküm Selam,  Hoş Geldin!**'); 
 		} else {
-		msg.reply('Aleyküm selam, hoş geldin ^^');
+		msg.reply('https://media.giphy.com/media/LQ4VGDV2lkMJ4s7QeJ/giphy.gif');
 		}
 	}
 });
@@ -374,18 +374,39 @@ client.on('message', msg => {
 		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
 			msg.author.sendMessage('**Aleyküm Selam,  Hoş Geldin!**'); 
 		} else {
-		msg.reply('Aleyküm selam, hoş geldin ^^');
-		}
+		msg.reply('https://media.giphy.com/media/LQ4VGDV2lkMJ4s7QeJ/giphy.gif');
+		}  
 	}
 });
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'selamun aleyküm') {
+  if (msg.content.toLowerCase() === '!dans') {
 		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
-			msg.author.sendMessage('**Aleyküm Selam,  Hoş Geldin!**'); 
+			msg.author.sendMessage('https://media.giphy.com/media/UiOcyFZKzjdIt3P3do/giphy.gif'); 
 		} else {
-		msg.reply('Aleyküm selam, hoş geldin ^^');
+		msg.reply('https://media.giphy.com/media/UiOcyFZKzjdIt3P3do/giphy.gif');
+		}  
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!instagram') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('@emresenb--@rose.et.epine--@ahmett.martinn--@mehmetburak.yavuz@emresenb--@rose.et.epine--@ahmett.martinn--@mehmetburak.yavuz'); 
+		} else {
+		msg.reply('@emresenb--@rose.et.epine--@ahmett.martinn--@mehmetburak.yavuz');
+		}  
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'amk') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif');
 		}
+      
 	}
 });
 
@@ -467,5 +488,6 @@ client.on('warn', e => {
 client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
+
 
 client.login(ayarlar.token);
