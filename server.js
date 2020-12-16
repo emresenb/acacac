@@ -410,6 +410,137 @@ client.on('message', msg => {
 	}
 });
 
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'aq') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!fenerbahçe') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('KURUMUŞ BOĞAZIM:( ');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!galatasaray') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('FALCAO İLE HASTANENİN 50 TONU ');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!beşiktaş') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('50 KrŞ vErLa TiRrEk ');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!trabzonspor') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('ÇUPAMİZU VERUN DA ');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'siktir') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('PATRON AYIP OLUYOR AMA HA:( ');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'mk') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('PATRON AYIP OLUYOR AMA HA:( ');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!ez') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('https://media.giphy.com/media/IhrydCIkHamUZBOQfO/giphy.gif');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!lolgel') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('https://media.giphy.com/media/5eF7nzp1oP3ryGjWcG/giphy.gif');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!sendemibürütüs') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('https://media.giphy.com/media/XBGAZdylFCDKpJAifb/giphy.gif');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!baba') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('https://media.giphy.com/media/VdSZE0N1YEr2a3DkMr/giphy.gif');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!!help') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('!instagram--!başkomutan--!sendemibürütüs--!lolgel--!ez--!baba--!dans--!maske--!teşkilat--!filmzamanı--!kapkaç--!kurbağadans--!alfa--!kankiilegezinti--!trabzonspor--!fenerbahçe--!beşiktaş--!galatasaray');
+		}
+      
+	}
+});
 ////////////////////////
 
 client.on('guildMemberAdd', member => {
