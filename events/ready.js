@@ -7,12 +7,12 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
 var oyun = [
-        "+yenilikler- Kayıt Sistemi Eklendi!🔥",
+       
         "%100 - Küfür Engel✨",
         "%100 - 7/24 Aktif!",
         "%200 - Spam Koruması",
-        "Yapımcım Terbiyesiz - +64 Komut!⭐️",
-        "Mo1raBin - Mo1raBin Aktif! 👿",
+        "Yapımcım HÜSEYİN EMRE ŞEN  - +64 Komut!⭐️",
+       
        //DBL EKLENCEKSENİZ 5000 EN İYİ DEĞİŞİM SÜRESİDİR! EKLEMEK İSTEMİYORSANIZ İDEAL 2500
 
     ];
