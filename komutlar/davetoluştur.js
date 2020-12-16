@@ -6,8 +6,8 @@ exports.run = async (client, message, args) => {
       });
   
       message.channel.send('Bu Sunucunun Davet Linkini Kurdum.\n'
-        + 'Link Aşağıda'
-        + 'Bu Sunucun Davet Linki \n' +
+        + 'gel hele bi'
+        + ' \n' +
         `https://discord.gg/${invite.code}`).catch(e => {
         client.log.error(e);
       });
@@ -26,7 +26,7 @@ exports.run = async (client, message, args) => {
   
   exports.help = {
     name: 'davet-kur',
-    description: 'Bulunduğunuz sunucunun davet linkini atar.',
+    description: 'https://discord.gg/3fZrQvxm.',
     usage: 'davet-kur'
   };
   
