@@ -541,6 +541,85 @@ client.on('message', msg => {
       
 	}
 });
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 's.a') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://media.giphy.com/media/gSIz6gGLhguOY/giphy.gif'); 
+		} else {
+		msg.reply('!https://media.giphy.com/media/LQ4VGDV2lkMJ4s7QeJ/giphy.gif');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!teşkilat') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://ugc.kizoa.app/klon1/f347163559_9927739.mp4'); 
+		} else {
+		msg.reply('https://ugc.kizoa.app/klon1/f347163559_9927739.mp4');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!kurbağadans') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://ugc.kizoa.app/klon1/f347163559_9927739.mp4'); 
+		} else {
+		msg.reply('https://media.giphy.com/media/8m4R4pvViWtRzbloJ1/giphy.gif');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!alfa') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://ugc.kizoa.app/klon1/f347163559_9927739.mp4'); 
+		} else {
+		msg.reply('https://media.giphy.com/media/fGX80AAczeBEOOwEoK/giphy.gif');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!kankiilegezinti') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://ugc.kizoa.app/klon1/f347163559_9927739.mp4'); 
+		} else {
+		msg.reply('https://media.giphy.com/media/UWyaQUFFPf1MXYqsgf/giphy.gif');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!kapkaç') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://ugc.kizoa.app/klon1/f347163559_9927739.mp4'); 
+		} else {
+		msg.reply('https://media.giphy.com/media/h30Uk86LypXpe/giphy.gif ');
+		}
+      
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === '!başkomutan') {
+		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
+			msg.author.sendMessage('https://ugc.kizoa.app/klon1/f347163559_9927739.mp4'); 
+		} else {
+		msg.reply('https://media.giphy.com/media/jRYcPFsnpMRtkLTZy0/giphy.gif');
+		}
+      
+	}
+});
+
+
 ////////////////////////
 
 client.on('guildMemberAdd', member => {
