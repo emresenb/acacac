@@ -490,7 +490,7 @@ client.on('message', msg => {
 client.on('message', msg => {
   if (msg.content.toLowerCase() === '!ez') {
 		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
-			msg.author.sendMessage('https://media.giphy.com/media/IhrydCIkHamUZBOQfO/giphy.gif); 
+			msg.author.sendMessage('https://media.giphy.com/media/IhrydCIkHamUZBOQfO/giphy.gif'); 
 		} else {
 		msg.reply('https://media.giphy.com/media/IhrydCIkHamUZBOQfO/giphy.gif');
 		}
